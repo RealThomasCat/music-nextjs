@@ -1,6 +1,4 @@
-"use client";
-// We can't directly use react hooks in Next.js. Make sure to make client component using 'use client'.
-
+"use client"; // We can't directly use react hooks in Next.js. Make sure to make client component using 'use client'.
 import React, { useState } from "react";
 import {
   HoveredLink,
